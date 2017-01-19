@@ -1,0 +1,114 @@
+	* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 12px;
+	font-family: Ubuntu, simHei, sans-serif;
+	font-weight: 400;
+}
+
+body{
+	font-size: 1rem;
+}
+
+table,
+th,
+td {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table {
+	width: 100%;
+}
+
+th,
+td {
+	border: 1px solid #BCBCBC;
+	padding: 5px 10px;
+}
+
+th {
+	background: #42B983;
+	font-size: 1.2rem;
+	font-weight: normal;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+tr:nth-of-type(odd) {
+	background: #fff;
+}
+
+tr:nth-of-type(even) {
+	background: #eee;
+}
+
+input{
+	outline: none;
+}
+
+input[type=text]{
+	border: 1px solid #ccc;
+	padding: .5rem .3rem;
+	width: 80%;
+}
+
+input[type=text]:focus{
+	border-color: #42B983;
+}
+a{
+	text-decoration:none;
+}
+
+
+.base-pr{
+  position: relative
+}
+.base-pa{
+  position: absolute;
+}
+.base-left {
+  float: left;
+}
+
+.base-right {
+  float: right;
+}
+
+.base-center{
+  text-align: center;
+}
+
+.base-flex-box {
+  display: flex;
+}
+
+.base-flex1 {
+  flex: 1;
+}
+.base-line1 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.base-line2 {
+  display: -webkit-box;
+  overflow: hidden;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.base-line3 {
+  display: -webkit-box;
+  overflow: hidden;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.base-w100{
+  width: 100%;
+}

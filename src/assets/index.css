@@ -1,0 +1,360 @@
+
+/*
+page {
+  width: 750px;
+  height: 100%;
+}
+*/
+body{
+  background: #f6f6f6;
+}
+.kb-loadingbg-wrap {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+/*无图 无网络 无数据*/
+
+.kb-logo-image {
+  width: 190px;
+  height: 100px;
+  display: block;
+  margin: 400px auto 24px;
+}
+
+.kb-loading-image {
+  width: 30px;
+  height: 10px;
+  display: block;
+  margin: 20px auto;
+}
+
+.kb-warn-image {
+  width: 330px;
+  height: 330px;
+  display: block;
+  margin: 0 auto ;
+  padding-top:250px;
+}
+
+.bk-warn-black {
+  font-size: 40px;
+  color: #000;
+  display: block;
+  text-align:center;
+  margin: 30px auto;
+}
+
+.kb-warn-grey {
+  font-size: 30px;
+  display: block;
+  margin: 0 auto;
+  text-align:center;
+  color: #888;
+}
+
+/** 新闻公共样式 **/
+
+.kb-bg {
+  background-color: #f6f6f6;
+  min-height: 100%;
+}
+
+.kb-title {
+  font-size: 18px;
+  color: #1a1a1a;
+  line-height: 24px;
+}
+
+.kb-clicked{
+  color:#888888;
+}
+.kb-red-em {
+  font-size: 11px;
+  color: #e94221;
+  line-height: 11px;
+  border: 1px solid #e94221;
+  display: inline-block;
+  margin-right: 8px;
+  border-radius: 2px;
+  padding: 2px;
+  vertical-align: top;
+  margin-top:3px;
+}
+
+.kb-span {
+  font-size: 12px;
+  color: #808080;
+  line-height: 12px;
+}
+
+.kb-card {
+  padding: 0 15px;
+  overflow:hidden;
+    display: block;
+}
+.kb-item-content{
+  padding: 15px 0;
+  border-bottom: 1px solid #e4e4e4;
+}
+.kb-del {
+  display: inline-block;
+  width: 20px;
+  height: 12px;
+  background: url(http://mat1.gtimg.com/www/images/newsapp/wxapp/kuaibao/close.png);
+  background-size: 20px 12px;
+  display: none;
+}
+
+.kb-image-box {
+  width: 113px;
+  height: 75px;
+  background: url(http://mat1.gtimg.com/www/images/newsapp/wxapp/kuaibao/holder_bigpic.png) #ececec center no-repeat;
+  background-size: 57px 30px;
+}
+
+.kb-img-center {
+  width: 113px;
+  height: 75px;
+}
+
+.kb-video {
+  width: 345px;
+  height: 195px;
+}
+
+.loadding-wrap {
+  padding-bottom: 20px;
+}
+
+/*顶部提示*/
+
+.bk-top-warn {
+  background: #fae0db;
+  width: 375px;
+  height: 35px;
+ overflow: hidden;
+}
+
+.kb-new-txt {
+  font-size: 14px;
+  color: #e94220;
+  line-height: 18px;
+}
+
+/**刷新样式**/
+
+.reflash-wrap {
+  text-align: center;
+  background: #ebebeb;
+  font-size: 14px;
+  margin-top: -1px;
+  padding: 10px 0;
+}
+.reflash-icon {
+  width: 13px;
+  height: 13px;
+  margin-right: 5px;
+}
+
+.reflash-txt {
+  font-size: 14px;
+  color: #888888;
+}
+
+/**专题样式**/
+
+.bottom-wrap {
+  position: relative;
+  margin-top: 10px;
+}
+
+.kb-fixed-top {
+  margin-right: 8px;
+}
+
+.del-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/**多图样式**/
+
+.middle-img {
+  margin: 0 3px;
+}
+
+.muti-item {
+  overflow: hidden;
+  height: 75px;
+  background: url(http://mat1.gtimg.com/www/images/newsapp/wxapp/kuaibao/holder_bigpic.png) #ececec center no-repeat;
+  background-size: 57px 30px;
+  
+}
+
+.muti-img-wrap {
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+/**标准图文2行**/
+
+.sim2-style {
+}
+
+.sim2-content-wrap {
+  margin-right: 15px;
+  overflow: hidden;
+}
+
+.sim2-text {
+  min-height: 36px;
+}
+
+/**大图视频**/
+
+.video-img-wrap {
+  margin-top: 10px;
+  margin-bottom: 6px;
+  text-align: center;
+  width: 345px;
+  height: 195px;
+  background: url(http://mat1.gtimg.com/www/images/newsapp/wxapp/kuaibao/holder_bigpic.png) #ececec center no-repeat;
+  background-size: 72px 30px;
+}
+
+.video-img {
+  height: 195px;
+  width: 345px;
+}
+
+.video-txt-wrap {
+  margin-right: 15px;
+}
+
+.video-big-ico-wrap {
+  left: 50%;
+  top: 50%;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+
+.video-big-icon {
+  width: 45px;
+  height: 45px;
+}
+
+/**标准图文3行**/
+
+.sim3-txt-wrap {
+  margin-right: 15px;
+}
+
+.sim3-txt-wrap {
+  margin-top: 4px;
+}
+
+/**小图视频**/
+
+.video-shadow {
+  background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%);
+  width: 113px;
+  height: 30px;
+  bottom: 0;
+}
+
+.video-play-wrap {
+  right: 5px;
+  bottom: 5px;
+  height: 15px;
+}
+
+.video-paly-icon {
+  width: 18px;
+  height: 22px;
+  margin-right: 6px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.video-play-time {
+  font-size: 24px;
+  color: #fff;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 24px;
+}
+.kb-loading-top-wrap{
+  padding: 10px;
+}
+.kb-loading-bottom-wrap{
+  padding: 20px 0;
+}
+.kb-loading-top-image{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*删除*/
+.del-hate{
+  position: absolute;
+  right: 0;
+  bottom: -16px;
+  width: 220px;
+  height: 60px;
+  display: none;
+}
+.bottom-content{
+  position: relative;
+  overflow: hidden;
+  font-size:24px;
+  line-height:36px;
+}
+.kb-bottom-nomore{
+  padding: 20px 0;
+  font-size:30px;
+  color:#c0c0c0;
+  text-align:center;
+  display: block
+}
+.kb-chlname{
+  word-break: break-all;
+  display: inline-block;
+  line-height: 24px;
+  margin-right: 10px;
+}
+.kb-item-comment{
+  position: absolute;
+  right: 0;
+  top: 6px;
+}
+
+
+/*测试版*/
+.switch-api{
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  width: 150px;
+  height: 50px;
+  z-index: 10;
+
+}
+.switch-btn{
+  
+      color: white;
+    font-size: 15px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 6px;
+}
+.switch-red{
+  background: #e94220;
+}
+.switch-blue{
+  background: #1479d7;
+}
